@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+    <link rel="shortcut icon" href="../Iconarchive-Cute-Animal-Cute-Fox.512.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Reprodutor de áudio</h1>
+    <audio controls preload="none" >
+        <source src="midia/Odd-Liza-_youtube_.opus" type="audio/ogg"> <!-- ogg -> OPUS-->
+        <source src="midia/Odd - Liza (youtube).mp3" type="audio/mp3">
+         <p>seu navegador não suporta os arquivos de audio disponiveis.</p>
+    </audio>
+    <hr>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/imgp.png" type="image/jpeg">
+        <source media="(max-width:1050px)" srcset="img/imgm.png" type="image/png">
+        <img src="img/img.png" alt="imagem flexível">
+    </picture>
+</body>
+</html>

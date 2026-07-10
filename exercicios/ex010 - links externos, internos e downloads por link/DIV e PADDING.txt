@@ -1,0 +1,41 @@
+													DIV - - DIV- - DIV
+
+Div é uma caixa, é um box de conteúdo que você vai usar para agrupar elementos dentro de uma mesma seção.
+
+
+Para centralizar o site, é necessario colocar todo o conteúdo dentro de uma div, ou seja: uma caixa.
+
+
+Para a DIV ter uma largura pré definida e ficar centralizada é necessario estilizar com o "width" a largura da div.
+
+
+Para centralizar a DIV é necessario definir as margens dela, use o atributo "margin" e defina o valor como "auto".
+
+
+
+_____________________________________________________________________________________________________________________________________________________________
+												PADDING - - PADDING - - PADDING
+
+Para dar espaço entre a parte da borda da DIV e o começo do conteúdo, você deve usar a prioridade "padding".
+
+valores locais.
+
+padding: topo, direito, baixo, esquerda;
+
+
+se todos os paddings forem iguais, somente é necessario definir o primeiro valor, assim todos os valores serão iguais ao do primeiro. 
+
+caso queira padding encima e embaixo iguais e da direita e esquerda diferentes de cima e baixo, use:
+
+padding: 10px 20px;
+
+assim o topo e embaixo terã0 10px, enquanto direita e esquerda terá 20px.
+
+
+padding individual para cada um dos lados:
+
+padding: 10px 20px 5px 5px;
+
+
+
+aula 9 continua em 12:12.
