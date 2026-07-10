@@ -1,0 +1,15 @@
+#relative {
+    background-color: aqua;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 20%;
+}
+
+#absolute {
+    background-color: rgb(255, 192, 255);
+    width: 250px;
+    position: absolute;
+    width: 90%;
+    height: 90%; padding: 5px;
+}
