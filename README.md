@@ -2,4 +2,4 @@
 
 Repositório dedicado aos meus aprendizados e códigos desenvolvidos durante o curso do CursoemVideo.
 
----
+Primeiro módulo: <a href="https://github.com/ezequiaslucas/html---css/tree/main/exercicios"> Módulo 01 </a>
