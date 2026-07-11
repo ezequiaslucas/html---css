@@ -3,6 +3,3 @@
 Repositório dedicado aos meus aprendizados e códigos desenvolvidos durante o curso do CursoemVideo.
 
 ---
-
-## 📂 Navegar por Pastas Completas
-* 📁 [Acessar todos os Exercícios](exercicios/)
