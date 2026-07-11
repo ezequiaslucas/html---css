@@ -4,5 +4,5 @@ Repositório dedicado aos meus aprendizados e códigos desenvolvidos durante o c
 
 ---
 
-## 📂 Navegar por Pastas Completas
-* 📁 [Acessar todos os Exercícios](exercicios/)
+Exercicios:
+ <a href="/exercicios">Módulo 01</a>
