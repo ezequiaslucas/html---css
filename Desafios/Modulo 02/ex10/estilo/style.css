@@ -50,7 +50,7 @@ header > p {
     margin: auto;
     padding: 0px 10px 0px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.221);
-    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 nav {
@@ -60,7 +60,7 @@ nav {
 }
 
 nav > a {
-    color: var(--cor1)
+    color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
