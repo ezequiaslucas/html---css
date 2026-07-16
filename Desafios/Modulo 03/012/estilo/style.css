@@ -1,5 +1,58 @@
 @Charset "UTF-8"; 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-weight: 100vh;
+    background-color: darkgray;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    /* text-transform: uppercase; -> transforma o texto em letras maiúsculas */
+    font-variant: small-caps; /* transforma o texto em letras maiúsculas, mas com a primeira letra de cada palavra maior */
+}
+header > p {
+    padding-bottom: 50px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover { 
+    text-decoration: underline;
+}
 pre {
-    white-space: pre-line;
+    white-space: pre-line; /* faz com que o texto seja exibido com quebras de linha e espaços em branco preservados */
     font-family: "arial", sans-serif;
+}
+section {
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(176, 140, 86);
+    color: white;
+}
+section.imagem > pre { 
+    background-color: rgba(0, 0, 0, 0.458);
+    width: 30%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
