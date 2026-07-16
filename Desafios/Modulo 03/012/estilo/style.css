@@ -1,21 +1,32 @@
 @Charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cursive;
+    --fonte3: "Sriracha", cursive;
+}
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 html, body {
-    min-weight: 100vh;
+    min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte2);   
 }
 header > h1 {
     padding-top: 50px;
     /* text-transform: uppercase; -> transforma o texto em letras maiúsculas */
     font-variant: small-caps; /* transforma o texto em letras maiúsculas, mas com a primeira letra de cada palavra maior */
+    font-size: 10vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -30,13 +41,14 @@ header a:hover, footer a:hover {
 }
 pre {
     white-space: pre-line; /* faz com que o texto seja exibido com quebras de linha e espaços em branco preservados */
-    font-family: "arial", sans-serif;
+    font-family: var(--fonte3)
 }
 section {
     padding-top: 10vh;
     padding-left: 30px;
     padding-bottom: 10vh;
     line-height: 2em;
+    font-size: 3.5vw;
 }
 section.normal {
     background-color: white;
@@ -48,7 +60,8 @@ section.imagem {
 }
 section.imagem > pre { 
     background-color: rgba(0, 0, 0, 0.458);
-    width: 30%;
+     display: inline-block;
+     padding: 10px;
 }
 footer {
     background-color: black;
