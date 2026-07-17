@@ -57,11 +57,29 @@ section.normal {
 section.imagem {
     background-color: rgb(176, 140, 86);
     color: white;
+    box-shadow: inset 6px 6px 13px black;
+    background-size: cover;     
 }
 section.imagem > pre { 
-    background-color: rgba(0, 0, 0, 0.458);
+    background-color: rgba(0, 0, 0, 0.129);
      display: inline-block;
      padding: 10px;
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.419);
+}
+section > pre {
+    padding-bottom: 2em;
+}
+section#img01 {
+    background-image: url("../imagens/background001.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+}
+section#img02 {   
+     background-image: url("../imagens/background002.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 footer {
     background-color: black;
