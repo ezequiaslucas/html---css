@@ -13,13 +13,31 @@
             width: 500px;
             text-align: center;
             margin: auto;
+            position: relative; /* posicionamento relativo ao elemento thead que tem o valor de position de sticky */
+        }
+        thead {
+            position: sticky; /* posicionamento sticky em relação ao elemento pai com relative, permitindo o cabeçalho fixo de tabela */
+            top: -1px; /* posicionamento estabelecido da tabela */
+            background-color: #383838;
+            color: white;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: gainsboro;
+        }
+        tbody > tr:nth-child(2n) { /* pseudo-classe para efeito zebrado em tabelas ":nth-child(2n)"
+        também é possivél utilizar o valor "odd"(impar) ou "even"(par) */
+            background-color: gainsboro;
         }
         td, th {
             border: 2px solid black;
             padding: 5px;
         }
-        thead, tfoot {
-            background-color: rgba(128, 128, 128, 0.353);
+        tfoot {
+            background-color: #383838;
+            color: white;
         }
         h1 {
             text-align: center;
@@ -33,6 +51,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!-- ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -41,10 +60,11 @@
                 TR, TD, TH 
     -->
     <table>
+        <caption>População das unidades federativas.</caption> <!--  semântico - legenda de tabela -->
         <thead>
             <tr>
-                <th>Estado</th> <!-- cabeçalho -->
-                <th>População</th>
+                <th scope="col">Estado</th> <!-- cabeçalho -->
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -158,7 +178,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td class="num"><strong>213 421 037</strong></td>
         </tfoot>
     </table>
